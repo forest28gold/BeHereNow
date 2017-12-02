@@ -1,0 +1,122 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NextPageToken"
+- "Article"
+provides-nominal:
+- "V9BeHereNow13NextPageToken"
+- "V9BeHereNow7Article"
+provides-member:
+- ["V9BeHereNow13NextPageToken", ""]
+- ["V9BeHereNow7Article", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "Article"
+- "NSDate"
+- "Bool"
+- "NextPageToken"
+- "Content"
+- !private "DateHelper"
+depends-member:
+- !private ["Ps9AnyObject", "dateFormatter"]
+- !private ["Ps9AnyObject", "dateFromString"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- !private ["Ps9AnyObject", "videoFormatter"]
+- ["V9BeHereNow7Article", "Bool"]
+- !private ["V9BeHereNow7Article", "DateHelper"]
+- ["V9BeHereNow7Article", "NSDate"]
+- ["V9BeHereNow7Article", "String"]
+- ["V9BeHereNow7Article", "author"]
+- ["V9BeHereNow7Article", "date"]
+- ["V9BeHereNow7Article", "deinit"]
+- ["V9BeHereNow7Article", "imageUrl"]
+- ["V9BeHereNow7Article", "init"]
+- ["V9BeHereNow7Article", "isVideo"]
+- ["V9BeHereNow7Article", "title"]
+- ["V9BeHereNow7Article", "url"]
+- !private ["Ps11CVarArgType", "dateFromString"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["P9BeHereNow7Content", "DateHelper"]
+- !private ["P9BeHereNow7Content", "NSDate"]
+- !private ["P9BeHereNow7Content", "author"]
+- !private ["P9BeHereNow7Content", "date"]
+- !private ["P9BeHereNow7Content", "imageUrl"]
+- !private ["P9BeHereNow7Content", "isVideo"]
+- !private ["P9BeHereNow7Content", "title"]
+- !private ["P9BeHereNow7Content", "token"]
+- !private ["P9BeHereNow7Content", "url"]
+- ["P9BeHereNow7Content", ""]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "dateFromString"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "dateFromString"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["C9BeHereNow10DateHelper", "dateFormatter"]
+- !private ["C9BeHereNow10DateHelper", "sharedInstance"]
+- !private ["C9BeHereNow10DateHelper", "videoFormatter"]
+- !private ["Ps9Equatable", "dateFromString"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps8Hashable", "dateFromString"]
+- !private ["Ps8Hashable", "init"]
+- !private ["PSo8NSCoding", "dateFromString"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "dateFromString"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo6NSDate", "init"]
+- !private ["CSo15NSDateFormatter", "dateFromString"]
+- !private ["CSo11NSFormatter", "dateFromString"]
+- !private ["CSo8NSObject", "dateFromString"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "dateFromString"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- ["V9BeHereNow13NextPageToken", "String"]
+- ["V9BeHereNow13NextPageToken", "deinit"]
+- ["V9BeHereNow13NextPageToken", "init"]
+- ["V9BeHereNow13NextPageToken", "token"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "V9BeHereNow7Article"
+- !private "Ps11CVarArgType"
+- "P9BeHereNow7Content"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "C9BeHereNow10DateHelper"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSDate"
+- !private "CSo15NSDateFormatter"
+- !private "CSo11NSFormatter"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "V9BeHereNow13NextPageToken"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/yaronkarasik/Development/MindPodNet/BeHereNow/BeHereNow/Main/BeHereNow-Bridging-Header.h"
+- "/Users/yaronkarasik/Development/MindPodNet/BeHereNow/Pods/Headers/Public/OneSignal/OneSignal/OneSignal.h"
+- "/Users/yaronkarasik/Development/MindPodNet/BeHereNow/Pods/Google/Headers/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/yaronkarasik/Development/MindPodNet/BeHereNow/Pods/Headers/Public/Localytics/Localytics.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "0943012e07940f8fbc0b2f0c550786af"
